@@ -1,0 +1,17 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/cypress open", 
+    "testall": "node_modules/.bin/cypress run",
+    "testspec": "node_modules/.bin/cypress run --spec 'cypress/integration/FirstTest.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.2.0"
+  }
+}
+
